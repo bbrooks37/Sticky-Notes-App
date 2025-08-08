@@ -19,7 +19,7 @@ const cancelDeleteBtn = document.getElementById('cancel-delete-btn');
 let noteIdToDelete = null;
 
 // --- API Endpoint ---
-const API_BASE_URL = 'http://localhost:3001/api/notes';
+const API_BASE_URL = 'https://pronotes-backend.onrender.com/api/notes';
 
 // --- Drag and Drop State ---
 let draggedNote = null;
